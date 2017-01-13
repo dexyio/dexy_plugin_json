@@ -50,7 +50,7 @@ defmodule DexyPluginJson do
   end
 
   defp data! %{mappy: map} do
-    Mappy.val map, "data", nil
+    Mappy.val map, "data"
   end
 
 end
